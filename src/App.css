@@ -1,0 +1,62 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.reactAnim-enter{
+  margin-left:-200px;
+  transform: rotate(0deg);
+  transition-duration: 500ms;
+   
+}
+.reactAnim-enter-action{
+  transform: rotate(360deg);
+  margin-left: 0px;
+}
+.reactAnim-leave{
+  margin-left:0px;
+  opacity: 1;
+  transition-duration: 300ms;
+}
+.reactAnim-leave-active{
+  margin-left: 600px;
+  opacity: 0;
+
+
+}
+.navbar a{
+  display: inline-block;
+  width: 100px;
+  background: skyblue;
+}
+.navbar a.active{
+  background: red;
+}
